@@ -8,13 +8,13 @@ const Projects = () => {
         <p className="text-center text-xl font-normal">
           Here are some projects I have build.
         </p>
-        <img src="../../public/line.png" alt="" />
+        <img src="https://i.ibb.co/NsDtwjh/line.png" alt="" />
       </div>
       {/* Project 1 */}
 
       <div className=" rounded">
-        <div className="  mx-auto hero min-h-screen bg-base-200">
-          <div className="hero-content flex flex-col md:flex-col lg:flex-row-reverse">
+        <div className="  mx-auto hero ">
+          <div className="hero-content flex flex-col md:flex-col lg:flex-row">
             <img
               src="https://i.ibb.co/bmMjDXW/p1.png"
               className="max-w-xs md:max-w-md lg:max-w-xl rounded-lg shadow-2xl"
@@ -56,8 +56,8 @@ const Projects = () => {
         </div>
       </div>
       <div className=" rounded">
-        <div className="  mx-auto hero min-h-screen bg-base-200">
-          <div className="hero-content flex flex-col md:flex-col lg:flex-row">
+        <div className="  mx-auto hero my-20 ">
+          <div className="hero-content flex flex-col md:flex-col lg:flex-row-reverse">
             <img
               src="https://i.ibb.co/pbp6xcy/p2.png"
               className="max-w-xs md:max-w-md lg:max-w-xl rounded-lg shadow-2xl"
@@ -101,7 +101,7 @@ const Projects = () => {
         </div>
       </div>
       <div className=" rounded">
-        <div className="  mx-auto hero min-h-screen bg-base-200">
+        <div className="  mx-auto hero ">
           <div className="hero-content flex flex-col md:flex-col lg:flex-row">
             <img
               src="https://i.ibb.co/619d03Q/p3.png"

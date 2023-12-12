@@ -25,13 +25,13 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="mb-10">
+    <div className="mb-10 mt-10">
       <div className="flex justify-center items-center flex-col gap-y-3">
         <h1 className="text-4xl text-center font-bold">Send Message</h1>
         <p className="text-center text-xl font-normal">
           Please write your message and send us.
         </p>
-        <img src="../../public/line.png" alt="" />
+        <img src="https://i.ibb.co/NsDtwjh/line.png" alt="" />
       </div>
       <form
         ref={form}

@@ -86,7 +86,10 @@ const Navbar = () => {
         </div>
         <div className="navbar-end items-center flex">
           <ThemeSwitcher></ThemeSwitcher>
-          <a className="btn text-teal-600">
+          <a
+            href="mailto:saadmahmud123@gmail.com"
+            className="btn text-teal-600"
+          >
             <FaBriefcase />
             Hire Now
           </a>

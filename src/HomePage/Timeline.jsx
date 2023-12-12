@@ -6,7 +6,7 @@ const Timeline = () => {
         <p className="text-center text-xl font-normal">
           Throughout the phases I am continuing my study.
         </p>
-        <img src="../../public/line.png" alt="" />
+        <img src="https://i.ibb.co/NsDtwjh/line.png" alt="" />
       </div>
       <div className="max-w-4xl mx-auto p-10">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">

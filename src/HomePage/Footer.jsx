@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaTwitter,
   FaGlobe,
+  FaEnvelope,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -17,10 +18,24 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer footer-center p-10 bg-base-300">
+        <h1 className="text-4xl text-center font-bold ">Contact Info</h1>
+        <img src="https://i.ibb.co/NsDtwjh/line.png" alt="" />
+
         <aside>
           <p className="font-bold text-2xl">Saad Mahmud</p>
           <p>University of Dhaka</p>
           <p>Full Stack Developer</p>
+          <a
+            href="mailto:saadmahmud123@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={linkStyle}
+          >
+            <FaEnvelope />{" "}
+            <span style={{ marginLeft: "5px" }}>
+              Email: saadmahmud123@gmail.com
+            </span>
+          </a>
         </aside>
         <nav>
           <div className="flex flex-wrap items-center justify-center gap-4">

@@ -6,7 +6,7 @@ const Skills = () => {
         <p className="text-center text-xl font-normal">
           There are the fields where I have skills on
         </p>
-        <img src="../../public/line.png" alt="" />
+        <img src="https://i.ibb.co/NsDtwjh/line.png" alt="" />
       </div>
       <div>
         <div className="flex gap-4 my-10 flex-wrap justify-center items-center">

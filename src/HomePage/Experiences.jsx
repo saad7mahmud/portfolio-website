@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 
 const Experiences = () => {
   return (
-    <div>
+    <div className="my-20 mt-32">
       <div className="flex justify-center items-center flex-col gap-y-3">
         <h1 className="text-4xl text-center font-bold">Experiences</h1>
         <p className="text-center text-xl font-normal">
           I have a deep experience on EdTech
         </p>
-        <img src="../../public/line.png" alt="" />
+        <img src="https://i.ibb.co/NsDtwjh/line.png" alt="" />
       </div>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero ">
         <div className="hero-content flex-col lg:flex-row ">
           <img
             className="w-1/3 m-10"
