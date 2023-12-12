@@ -22,15 +22,17 @@ const Banner = () => {
             Saad Mahmud
           </h1>
           <h1 className="text-xl md:text-2xl lg:text-3xl font-medium">
-            MERN Stack Developer
+            <span className="text-teal-600">MERN</span> Stack Developer
           </h1>
           <p>
-            I am an enthusiastic Junior Full Stack Web Developer specializing in
-            MERN (MongoDB, Express.js, React, Node.js)
+            I am an enthusiastic Junior Full Stack Web Developer specializing in{" "}
+            <span className="text-teal-600">
+              MongoDB, Express.js, React, Node.js
+            </span>
           </p>
           <button
             onClick={handleDownload}
-            className="btn btn-ghost btn-active my-4 w-52"
+            className="btn text-teal-600 my-4 w-52"
           >
             <FaDownload />
             Donwload Resume

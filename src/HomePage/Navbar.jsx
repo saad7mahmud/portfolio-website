@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { FaHome, FaBriefcase, FaUser, FaEnvelope } from "react-icons/fa";
-
+import ThemeSwitcher from "../Theme/ThemeSwitcher";
 
 const Navbar = () => {
   const navLinks = (
@@ -12,7 +12,7 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "text-[#01949a]  font-bold underline "
+              ? "text-teal-600  font-bold underline "
               : ""
           }
         >
@@ -26,7 +26,7 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "text-[#01949a] font-bold  underline "
+              ? "text-teal-600 font-bold  underline "
               : ""
           }
         >
@@ -40,11 +40,11 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "text-[#01949a]  font-bold underline "
+              ? "text-teal-600  font-bold underline "
               : ""
           }
         >
-            <FaEnvelope/>  Contact
+          <FaEnvelope /> Contact
         </NavLink>
       </li>
     </>
@@ -84,8 +84,9 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">
+        <div className="navbar-end items-center flex">
+          <ThemeSwitcher></ThemeSwitcher>
+          <a className="btn text-teal-600">
             <FaBriefcase />
             Hire Now
           </a>
