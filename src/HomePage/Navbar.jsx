@@ -1,4 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
+import { FaHome, FaBriefcase, FaUser, FaEnvelope } from "react-icons/fa";
+
 
 const Navbar = () => {
   const navLinks = (
@@ -14,7 +16,7 @@ const Navbar = () => {
               : ""
           }
         >
-          Home
+          <FaHome /> Home
         </NavLink>
       </li>
       <li>
@@ -28,7 +30,7 @@ const Navbar = () => {
               : ""
           }
         >
-          About Me
+          <FaUser /> About Me
         </NavLink>
       </li>
       <li>
@@ -42,7 +44,7 @@ const Navbar = () => {
               : ""
           }
         >
-          Contact
+            <FaEnvelope/>  Contact
         </NavLink>
       </li>
     </>
@@ -83,7 +85,10 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn">
+            <FaBriefcase />
+            Hire Now
+          </a>
         </div>
       </div>
     </div>
