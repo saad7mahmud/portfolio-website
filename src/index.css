@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.gradient-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgba(23, 23, 41, 0.5),
+    rgba(30, 30, 61, 0.8)
+  );
+  /* Adjust the transparency and direction as needed */
+  color: #fff; /* Text color */
+  font-family: "Arial", sans-serif; /* Font family */
+  text-align: center;
+}
+
+
