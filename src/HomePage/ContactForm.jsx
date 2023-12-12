@@ -25,7 +25,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div className="mb-10">
       <div className="flex justify-center items-center flex-col gap-y-3">
         <h1 className="text-4xl text-center font-bold">Send Message</h1>
         <p className="text-center text-xl font-normal">

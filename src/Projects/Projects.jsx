@@ -14,10 +14,10 @@ const Projects = () => {
 
       <div className=" rounded">
         <div className="  mx-auto hero min-h-screen bg-base-200">
-          <div className="hero-content">
+          <div className="hero-content flex flex-col md:flex-col lg:flex-row-reverse">
             <img
-              src="../../public/p1.png"
-              className="max-w-2xl rounded-lg shadow-2xl"
+              src="https://i.ibb.co/bmMjDXW/p1.png"
+              className="max-w-xs md:max-w-md lg:max-w-xl rounded-lg shadow-2xl"
             />
             <div>
               <h1 className="text-4xl mb-2 font-bold">BengalBreeze</h1>
@@ -34,16 +34,22 @@ const Projects = () => {
                   {" "}
                   <button className="btn text-teal-600 my-4">Live Link</button>
                 </Link>
-                <button className="btn text-teal-600 my-4">Client Code</button>
                 <Link
                   to="https://github.com/saad7mahmud/BengalBreeze-Client-Side"
                   target="_blank"
-                ></Link>
-                <button className="btn text-teal-600 my-4 ">Server Code</button>
+                >
+                  <button className="btn text-teal-600 my-4">
+                    Client Code
+                  </button>
+                </Link>
                 <Link
                   to="https://github.com/saad7mahmud/BengalBreeze-Server-Side"
                   target="_blank"
-                ></Link>
+                >
+                  <button className="btn text-teal-600 my-4 ">
+                    Server Code
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -51,10 +57,10 @@ const Projects = () => {
       </div>
       <div className=" rounded">
         <div className="  mx-auto hero min-h-screen bg-base-200">
-          <div className="hero-content flex flex-row-reverse">
+          <div className="hero-content flex flex-col md:flex-col lg:flex-row">
             <img
-              src="../../public/p2.png"
-              className="max-w-2xl rounded-lg shadow-2xl"
+              src="https://i.ibb.co/pbp6xcy/p2.png"
+              className="max-w-xs md:max-w-md lg:max-w-xl rounded-lg shadow-2xl"
             />
             <div>
               <h1 className="text-4xl mb-2 font-bold">Zero Hunger</h1>
@@ -73,16 +79,22 @@ const Projects = () => {
                   {" "}
                   <button className="btn text-teal-600 my-4">Live Link</button>
                 </Link>
-                <button className="btn text-teal-600 my-4">Client Code</button>
                 <Link
                   to="https://github.com/saad7mahmud/ZeroHunger-Client-Side"
                   target="_blank"
-                ></Link>
-                <button className="btn text-teal-600 my-4 ">Server Code</button>
+                >
+                  <button className="btn text-teal-600 my-4">
+                    Client Code
+                  </button>
+                </Link>
                 <Link
                   to="https://github.com/saad7mahmud/ZeroHunger-Server-Side"
                   target="_blank"
-                ></Link>
+                >
+                  <button className="btn text-teal-600 my-4 ">
+                    Server Code
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -90,10 +102,10 @@ const Projects = () => {
       </div>
       <div className=" rounded">
         <div className="  mx-auto hero min-h-screen bg-base-200">
-          <div className="hero-content">
+          <div className="hero-content flex flex-col md:flex-col lg:flex-row">
             <img
-              src="../../public/p3.png"
-              className="max-w-2xl rounded-lg shadow-2xl"
+              src="https://i.ibb.co/619d03Q/p3.png"
+              className="max-w-xs md:max-w-md lg:max-w-xl rounded-lg shadow-2xl"
             />
             <div>
               <h1 className="text-4xl mb-2 font-bold">Tech Valley</h1>
@@ -109,16 +121,22 @@ const Projects = () => {
                   {" "}
                   <button className="btn text-teal-600 my-4">Live Link</button>
                 </Link>
-                <button className="btn text-teal-600 my-4">Client Code</button>
                 <Link
                   to="https://github.com/saad7mahmud/TechValley-Client-Side"
                   target="_blank"
-                ></Link>
-                <button className="btn text-teal-600 my-4 ">Server Code</button>
+                >
+                  <button className="btn text-teal-600 my-4">
+                    Client Code
+                  </button>
+                </Link>
                 <Link
                   to="https://github.com/saad7mahmud/TechValley-Server-Side"
                   target="_blank"
-                ></Link>
+                >
+                  <button className="btn text-teal-600 my-4 ">
+                    Server Code
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

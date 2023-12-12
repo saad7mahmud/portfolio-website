@@ -13,7 +13,7 @@ const Banner = () => {
         <div className="w-1/2 flex justify-center items-center">
           <img
             className="w-3/4"
-            src="../../public/Saad Image frame.png"
+            src="https://i.ibb.co/311Wnbp/Saad-Image-frame.png"
             alt=""
           />
         </div>
